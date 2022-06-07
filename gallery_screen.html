@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body id="gallery_screen">
+    <button class="glyphicon glyphicon-arrow-left btn btn-success btn-lg" onclick="back_to_welcome_screen()"> Back</button>
+    <button class="glyphicon glyphicon-arrow-right btn btn-info btn-lg" onclick="goToCommunity()" style="float: right;"> Community</button>
+
+
+    <div class="container">
+        <center>
+            <h1 id="welcome_tag" style="margin-top: 30px; font-size: 100px; color: white;">Gallery</h1>
+
+
+            <h2 style="color: red;"> Note : <span style="color: white;"> Click on the images for more
+                    information.</span> </h2>
+                    
+            <br>
+            <br>
+
+            <div class="gallery_section" style="margin-left:110px">
+                <div>
+                    <span> <img src="black hole.webp" id="black_hole" onclick="black_hole()"></span>
+                    <h3 style="color: white;">Super massive black hole</h3>
+                </div>
+                <div>
+                    <span> <img src="Screenshot (155).png" id="stars" onclick="large_Magellanic_Cloud()"></span>
+                    <h3 style="color: white; margin-left: 60px;">Large Magellanic Cloud</h3>
+                </div>
+
+                <div>
+                    <span> <img src="SINGLESTAR.avif" id="SINGLESTAR" onclick="twoMASS()"></span>
+                    <h3 style="color: white; margin-left: 60px;">2MASS J17554042+6551277</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="gallery_section" style="margin-left:170px">
+                <div>
+                    <span> <img src="Screenshot (156).png" id="Earendel_star" onclick="earendel_star()"></span>
+                    <h3 style="color: white;">Earendel</h3>
+                </div>
+                <div>
+                    <span> <img src="HD_21749b.jpg" id="HD_21749b_planet" onclick="hd_217_planet()"></span>
+                    <h3 style="color: white; margin-left: 160px;">HD 21749b planet</h3>
+                </div>
+
+                <div>
+                    <span> <img src="kepler.jpg" id="kepler_star" onclick="kepler_planet()"></span>
+                    <h3 style="color: white; margin-left: 160px;">Kepler-1649c</h3>
+                </div>
+            </div>
+            <hr>
+            <h2 style="color: red;"> Note : <span style="color: white;"> If you have any suggestion related to any topic feel free to mention it in community section using the community button available above.</span> </h2>
+        
+        </center>
+    </div>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="Gallery_screen.js"></script>
+</body>

@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>User_login</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body id="login_body">
+    <button class="glyphicon glyphicon-arrow-left btn btn-success btn-lg" onclick="backToGalleryScreen()"> Back</button>
+    <div class="container">
+        <center>
+            <div id="login_div" class="login_1 col-lg-4 col-md-8 col-sm-8 col-xs-11">
+                <h1 id="welcome" style="text-decoration: underline;font-family:Georgia, 'Times New Roman', Times, serif; ">Welcome!!</h1>
+                <br>
+                <h1 id="chat" style="font-family:Georgia, 'Times New Roman', Times, serif;"> Let's Chat</h1>
+                <br>
+                <input id="username_input" class="form-control" type="text" placeholder="Enter Your Name" style="text-align: center">
+                <br> <br>
+                <button id="login_btn" onclick="adduser()" class="btn btn-success btn-lg" style="margin-bottom: 10px;">Login</button>
+            </div>
+        </center>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="community_login.js"></script>
+</body>
+
+</html>

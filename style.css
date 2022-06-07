@@ -1,0 +1,164 @@
+#login_body {
+    background-image: url("universe_pic.jpeg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+#welcome_tag {
+    font-family: 'Yeon Sung';
+}
+
+#gallery_screen {
+    background-image: url("universe\ 2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#black_hole,
+#Earendel_star {
+    height: 200px;
+    border-radius: 10px;
+    width: 160px;
+}
+
+#stars,
+#SINGLESTAR {
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 60px;
+    width: 160px;
+}
+
+.gallery_section {
+    display: flex;
+}
+
+#HD_21749b_planet {
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 160px;
+    width: 160px;
+}
+
+#kepler_star {
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 150px;
+    width: 160px;
+}
+
+#black_hole_body {
+    background-image: url("black_back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#Magellanic_Cloud_body {
+    background-image: url("cloud.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#twoMass_body {
+    background-image: url("twomass_back.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#Earendel_body {
+    background-image: url("Earendel_back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#HD_21749b_body {
+    background-image: url("hd_back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#Kepler-1649c_body {
+    background-image: url("kepler_back.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#login_body {
+    background-image: url("user_back.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#login_div {
+    background-color: rgba(160, 212, 241, 0.993);
+    border-radius: 20px;
+    margin-top: 290px;
+    margin-left: 180px;
+    width: 800px;
+}
+
+#welcome_body {
+    background-image: url("universe_pic.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#Community_Page {
+    background-image: url("community_back.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+#community_div {
+    margin-top: 30px;
+}
+
+#community_lbl {
+
+    color: black;
+    margin-top: 100px;
+    margin-right: 10px;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+
+}
+
+#output
+{
+	padding: 10px;
+     width:80%;
+     background: rgba(255,255,255,0.8);
+     border-radius: 15px;
+     cursor: pointer;
+     font-size: 20px;
+}
+
+#community_page_body{
+    background-image: url("community_back.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#logout{
+    float: right;
+}
+
+.header img{
+    width: 80px;
+    margin-left: 5px;
+}
+
+#output{
+    padding: 10px;
+    width: 80%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+}
+
+.user_tick
+{
+	width:20px;
+}

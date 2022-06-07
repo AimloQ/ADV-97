@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>COMMUNITY WEBAPP </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="Community_Page">
+
+    <button id="logout_btn" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger btn-lg"
+        >Logout</button>
+
+    <div id="community_div" class="container">
+
+        <center>
+            <h1 id="community_lbl" class="header">Community</h1>
+            <h3 id="welcome_user"style="font-size:30px; color:white">Welcome</h3>
+            <div class="form-group input_div_room_page">
+
+                <h4 id="rooms_names"style="color:white;">#AddRoom:</h3>
+                    <br>
+                    <input id="RoomName_input" type="text" placeholder="Enter the Room name" class="form-control"
+                        style="border-radius:10px ; text-align:center ; width: 700px;">
+                    <br>
+                    <button id="add_room" onclick="addRoom()" class="btn btn-success btn-lg">#AddRoom</button>
+                    <br>
+                    <h3 style="color: white; font-weight:400;">#TRENDINGROOMS</h3>
+                    <div id="output"></div>
+
+            </div>
+        </center>
+    </div>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="community.js"></script>
+</body>
+
+</html>
