@@ -1,17 +1,15 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyAdzNqa-qZMjW3jkdCqQAYATj-kDlbT6Y8",
-    authDomain: "spacegallerycommunity.firebaseapp.com",
-    databaseURL: "https://spacegallerycommunity-default-rtdb.firebaseio.com",
-    projectId: "spacegallerycommunity",
-    storageBucket: "spacegallerycommunity.appspot.com",
-    messagingSenderId: "15188366957",
-    appId: "1:15188366957:web:3155200605aec15876d164"
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyB6XdfsKHdvLo8Hofk2MyxA870txYZlNXc",
+  authDomain: "prime-xfbu.firebaseapp.com",
+  projectId: "prime-xfbu",
+  storageBucket: "prime-xfbu.appspot.com",
+  messagingSenderId: "1011535454889",
+  appId: "1:1011535454889:web:eb8ece6cf57bd789b13fb8"
 };
-
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 user_name = localStorage.getItem("user_name");
-
 room_name = localStorage.getItem("Room");
 
 document.getElementById("entered_room").innerHTML= "You have have entered in: " + room_name ;
